@@ -31,11 +31,11 @@ public class BlockColorsMixin {
         Blocks.SUGAR_CANE,
         Blocks.BAMBOO_SAPLING,
         Blocks.BAMBOO,
-	    Blocks.OAK_LEAVES,
-	    Blocks.BIRCH_LEAVES,
-	    Blocks.JUNGLE_LEAVES,
-	    Blocks.ACACIA_LEAVES,
-	    Blocks.DARK_OAK_LEAVES,
+        Blocks.OAK_LEAVES,
+        Blocks.BIRCH_LEAVES,
+        Blocks.JUNGLE_LEAVES,
+        Blocks.ACACIA_LEAVES,
+        Blocks.DARK_OAK_LEAVES,
         Blocks.VINE
     ));
 
