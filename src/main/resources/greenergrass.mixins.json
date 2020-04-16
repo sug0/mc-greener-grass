@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "to.us.gandas.greener_grass.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockColorsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "greener-grass",
+  "version": "${version}",
+
+  "name": "Greener Grass",
+  "description": "Makes vegetation greener.",
+  "authors": [
+    "sugo"
+  ],
+  "contact": {
+    "homepage": "https://gandas.us.to/",
+    "sources": "https://github.com/sug0/"
+  },
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "to.us.gandas.greener_grass.GreenerGrassMod"
+    ]
+  },
+  "mixins": [
+    "greenergrass.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  }
+}
