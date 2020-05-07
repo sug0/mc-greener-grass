@@ -19,7 +19,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(BlockColors.class)
 public class BlockColorsMixin {
-    private static final boolean ALPHA_GRASS = true;
+    private static final boolean ALPHA_GRASS = false;
     private static final Set<Block> AFFECTED_BLOCKS = new HashSet<>(Arrays.asList(
         Blocks.LARGE_FERN,
         Blocks.TALL_GRASS,
